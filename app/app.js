@@ -55,14 +55,6 @@ app.config(['$routeProvider', '$locationProvider',
       controller: 'navController',
       templateUrl: 'app/partials/gallery/gallery-promo.html'
     })
-    // .when('/referens-vvs', {
-    //   controller: 'navController',
-    //   templateUrl: 'app/partials/gallery/gallery-vvs.html'
-    // })
-    // .when('/referens-snickeri', {
-    //   controller: 'navController',
-    //   templateUrl: 'app/partials/gallery/gallery-snickeri.html'
-    // })
     .when('/contact', {
       controller: 'navController',
       templateUrl: 'app/partials/contact/contact.html'
