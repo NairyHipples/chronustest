@@ -15,43 +15,43 @@ app.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true);
   $routeProvider
-    .when('#/', {
+    .when('/', {
       controller: 'navController',
       templateUrl: 'app/partials/home/home.html'
     })
-    .when('#/store', {
+    .when('/store', {
       controller: 'navController',
       templateUrl: 'app/partials/store/store.html'
     })
-    .when('#/band', {
+    .when('/band', {
       controller: 'navController',
       templateUrl: 'app/partials/band/band.html'
     })
-    .when('#/renovering-kok', {
+    .when('/renovering-kok', {
       controller: 'navController',
       templateUrl: 'app/partials/band/renovering-kok.html'
     })
-    .when('#/renovering-badrum', {
+    .when('/renovering-badrum', {
       controller: 'navController',
       templateUrl: 'app/partials/band/renovering-badrum.html'
     })
-    .when('#/renovering-snickeri', {
+    .when('/renovering-snickeri', {
       controller: 'navController',
       templateUrl: 'app/partials/band/renovering-snickeri.html'
     })
-    .when('#/renovering-total', {
+    .when('/renovering-total', {
       controller: 'navController',
       templateUrl: 'app/partials/band/renovering-total.html'
     })
-    .when('#/om-oss', {
+    .when('/om-oss', {
       controller: 'navController',
       templateUrl: 'app/partials/about/about.html'
     })
-    .when('#/gallery-live', {
+    .when('/gallery-live', {
       controller: 'navController',
       templateUrl: 'app/partials/gallery/gallery-live.html'
     })
-    .when('#/gallery-promo', {
+    .when('/gallery-promo', {
       controller: 'navController',
       templateUrl: 'app/partials/gallery/gallery-promo.html'
     })
@@ -63,11 +63,11 @@ app.config(['$routeProvider', '$locationProvider',
     //   controller: 'navController',
     //   templateUrl: 'app/partials/gallery/gallery-snickeri.html'
     // })
-    .when('#/contact', {
+    .when('/contact', {
       controller: 'navController',
       templateUrl: 'app/partials/contact/contact.html'
     })
-    .when('#/kontakt', {
+    .when('/kontakt', {
       controller: 'navController',
       templateUrl: 'app/partials/contact/contact.html'
     })
