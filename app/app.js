@@ -19,11 +19,11 @@ app.config(['$routeProvider', '$locationProvider',
       controller: 'navController',
       templateUrl: 'app/partials/home/home.html'
     })
-    .when('/#store', {
+    .when('/store', {
       controller: 'navController',
       templateUrl: 'app/partials/store/store.html'
     })
-    .when('/#band', {
+    .when('/band', {
       controller: 'navController',
       templateUrl: 'app/partials/band/band.html'
     })
